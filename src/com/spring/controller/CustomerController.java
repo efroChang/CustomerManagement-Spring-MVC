@@ -83,7 +83,7 @@ public class CustomerController {
 	}
 
 	// ----------------------------------------
-	// GET: Delete a Customer
+	// GET: Search for Customers
 	// ----------------------------------------
 	@GetMapping("/search")
 	public String search(@RequestParam("searchCriteria") String criteria, Model model) {
